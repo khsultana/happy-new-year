@@ -6,7 +6,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 .header-section{
-background: url(../resources/Banner\ Image.png);
+background:linear-gradient(180deg, rgb(0, 0, 0), transparent), url(../resources/Banner\ Image.png);
 max-width: 1320px;
 height: 600px;
 background-size: cover;
@@ -21,4 +21,96 @@ background-size: cover;
     text-align: center;
     font-size: 72px;
     color: white;
-    }
+    padding-top: 20px;
+}
+
+.section-part{
+    text-align: center;
+    padding-top: 120px;
+}
+.section-part h1{
+color: red;
+font-size: 80px;
+}
+.section-part p{
+    color: red; 
+    font-size: 22px;
+    padding-top: 30px;
+}
+.section-part h4{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.section-img img{
+    padding-top: 45px;
+    display: block;
+   margin: auto;
+    width: 50%;
+}
+.midnight-section{
+    margin-top: 120px;
+    max-width: 1320px;
+    height: 600px;
+background-size: cover;
+    background-image:linear-gradient(90deg, rgb(0, 0, 0), transparent), url(../resources/Vectorrr.png);
+}
+
+.midnight-party{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-section{
+    width: 50%;
+    margin-top: 100px;
+}
+.img-section{
+     margin-top: 100px;
+}
+.text-section h1{
+    text-align: left;
+    font-size: 72px;
+    color: white;
+    padding-top: 20px;
+}
+.text-section p{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+.text-section button{
+    border-style: none;
+    padding: 20px 40px;
+    background-color: crimson;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.time-section{
+    max-width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, pink , white);
+    margin-top: 120px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+.btn-section button{
+    border-style: none;
+    padding: 20px 40px;
+    background-color: crimson;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.time{
+    padding-top: 220px;
+}
+.coming-soon{
+    display: flex;
+    justify-content: space-evenly
+}
