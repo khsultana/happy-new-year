@@ -1,105 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0%;
     font-family: 'Josefin Sans', sans-serif;
 }
-.header-section{
-background:linear-gradient(180deg, rgb(0, 0, 0), transparent), url(../resources/Banner\ Image.png);
-max-width: 1320px;
-height: 600px;
-background-size: cover;
+
+.header-section {
+    background: linear-gradient(180deg, rgb(0, 0, 0), transparent), url(../resources/Banner\ Image.png);
+    max-width: 1320px;
+    height: 600px;
+    background-size: cover;
 }
-.banner-paragraph p{
+
+.banner-paragraph p {
     text-align: center;
     font-size: 32px;
     color: white;
     padding-top: 177px;
 }
-.header-section h1{
+
+.header-section h1 {
     text-align: center;
     font-size: 72px;
     color: white;
     padding-top: 20px;
 }
 
-.section-part{
+.section-part {
     text-align: center;
     padding-top: 120px;
 }
-.section-part h1{
-color: red;
-font-size: 80px;
+
+.section-part h1 {
+    color: red;
+    font-size: 80px;
 }
-.section-part p{
-    color: red; 
+
+.section-part p {
+    color: red;
     font-size: 22px;
     padding-top: 30px;
 }
-.section-part h4{
+
+.section-part h4 {
     font-size: 30px;
     padding-top: 10px;
 }
-.section-img img{
+
+.section-img img {
     padding-top: 45px;
     display: block;
-   margin: auto;
+    margin: auto;
     width: 50%;
 }
-.midnight-section{
+
+.midnight-section {
     margin-top: 120px;
     max-width: 1320px;
     height: 600px;
-background-size: cover;
-    background-image:linear-gradient(90deg, rgb(0, 0, 0), transparent), url(../resources/Vectorrr.png);
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), transparent), url(../resources/Vectorrr.png);
 }
 
-.midnight-party{
+.midnight-party {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text-section{
+
+.text-section {
     width: 50%;
     margin-top: 100px;
 }
-.img-section{
-     margin-top: 100px;
+
+.img-section {
+    margin-top: 100px;
 }
-.text-section h1{
+
+.text-section h1 {
     text-align: left;
     font-size: 72px;
     color: white;
     padding-top: 20px;
 }
-.text-section p{
+
+.text-section p {
     text-align: left;
     font-size: 20px;
     color: white;
     padding-top: 20px;
 }
-.text-section button{
+
+.text-section button {
     border-style: none;
     padding: 20px 40px;
     background-color: crimson;
     color: wheat;
     font-size: 20px;
     margin-top: 20px;
-   
+
 }
 
-.time-section{
+.time-section {
     max-width: 1320px;
     height: 482px;
-    background-image: linear-gradient(180deg, pink , white);
+    background-image: linear-gradient(180deg, pink, white);
     margin-top: 120px;
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
     justify-content: center;
-  }
-.btn-section button{
+}
+
+.btn-section button {
     border-style: none;
     padding: 20px 40px;
     background-color: crimson;
@@ -107,10 +121,99 @@ background-size: cover;
     font-size: 20px;
     margin-top: 20px;
 }
-.time{
+
+.time {
     padding-top: 220px;
 }
-.coming-soon{
+
+.coming-soon {
     display: flex;
-    justify-content: space-evenly
+    margin: 0% auto;
+    align-items: center;
+    gap: 40px;
+    max-width: 1320;
+    padding: 20px;
+}
+
+.part-one {
+    width: 50%;
+}
+
+.part-one h4 {
+    color: crimson;
+    padding-bottom: 20px;
+}
+
+.part-one h1 {
+    font-size: 32px;
+    color: darkviolet;
+    padding-bottom: 30px;
+}
+
+
+.part-two img {
+    width: 80%;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.part-three {
+    width: 50%;
+}
+
+.part-three h1 {
+    color: red;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.part-three p {
+    padding-bottom: 20px;
+
+}
+
+.functional {
+    text-align: center;
+    width: 75%;
+    margin: 0% auto;
+    margin-top: 120px;
+}
+
+.functional h4 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.functional h1 {
+    font-size: 72px;
+    padding-bottom: 30px;
+}
+
+
+
+.holy {
+    color: red;
+}
+
+.discount-section {
+    display: flex;
+    margin-top: 120px;
+    background-image: url(../resources/Box.png), url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom;
+    padding-bottom: 215px;
+    justify-content: right;
+}
+
+.image-sec {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.circle {
+    position: relative;
+    left: 20%;
 }
