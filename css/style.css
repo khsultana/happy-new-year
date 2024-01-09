@@ -339,3 +339,8 @@
     padding-top: 200px;
 
 }
+.images:hover{
+    height: 500px;
+    width:500 px;
+    color: brown;
+    }
